@@ -1,0 +1,49 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: #ffe6f0;
+  color: #5c005c;
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #d63384;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input, select, button {
+  padding: 10px;
+  border: 2px solid #ff99cc;
+  border-radius: 8px;
+  background-color: #fff0f5;
+  color: #5c005c;
+  font-weight: bold;
+}
+
+#product-list div, #cart div {
+  background: #fff;
+  border: 2px dashed #ff99cc;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+img {
+  width: 100px;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #ffccf2;
+}
+
+#pagination {
+  text-align: center;
+  margin: 20px 0;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>💖 Pink Boutique</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>💖 Welcome to Pink Boutique</h1>
+
+  <div class="controls">
+    <input type="text" id="search-box" placeholder="Search sparkly things...">
+    <select id="category-filter">
+      <option value="">All Categories</option>
+      <option value="Shirts">Shirts</option>
+      <option value="Shoes">Shoes</option>
+      <option value="Accessories">Accessories</option>
+    </select>
+    <select id="sort">
+      <option value="">Sort by</option>
+      <option value="price-asc">Price (Low → High)</option>
+      <option value="price-desc">Price (High → Low)</option>
+      <option value="name-asc">Name (A → Z)</option>
+    </select>
+  </div>
+
+  <div id="product-list"></div>
+
+  <div id="pagination">
+    <button id="prev">⬅️ Prev</button>
+    <span id="page-info"></span>
+    <button id="next">Next ➡️</button>
+  </div>
+
+  <h2>🛍️ Your Cart</h2>
+  <div id="cart"></div>
+  <p>Total: $<span id="cart-total">0.00</span></p>
+  <button id="clear-cart">🧹 Clear Cart</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
